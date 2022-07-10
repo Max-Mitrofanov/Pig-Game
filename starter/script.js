@@ -59,7 +59,7 @@ btnHold.addEventListener(`click`, function () {
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
-    if (scores[activePlayer] >= 50) {
+    if (scores[activePlayer] >= 100) {
       playing = false;
       document
         .querySelector(`.player--${activePlayer}`)
@@ -74,5 +74,3 @@ btnHold.addEventListener(`click`, function () {
 });
 
 btnNew.addEventListener(`click`, init);
-
-console.log('new branch');
