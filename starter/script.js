@@ -75,4 +75,4 @@ btnHold.addEventListener(`click`, function () {
 
 btnNew.addEventListener(`click`, init);
 
-console.log(scores);
+console.log(playing);
