@@ -76,3 +76,5 @@ btnHold.addEventListener(`click`, function () {
 btnNew.addEventListener(`click`, init);
 
 console.log(playing);
+console.log("hi")
+
